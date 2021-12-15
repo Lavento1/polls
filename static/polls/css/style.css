@@ -1,0 +1,38 @@
+/* index 스타일 */
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.index_style h1{
+    color: #00f;
+    font-size: 2em;
+}
+
+.index_style ul li{
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.index_style ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.index_style ul li a:hover{
+    text-decoration: underline;
+    color: 000;
+}
+
+/* detail 스타일 */
+
+.detail_style h2{
+    color: #f00;
+    font-size: 2em;
+}
+
+.detail_style ul li{
+    margin: 20px;
+    font-size: 1.2em;
+}
