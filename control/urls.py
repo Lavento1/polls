@@ -7,4 +7,6 @@ app_name = 'control'
 urlpatterns = [
     path('', views.index, name='index'),
     path('register/', views.register, name='register'),
+    path('counter/', views.counter, name='counter'),
+    path('calc_even_odd/', views.calc_even_odd, name='calc_even_odd'),
 ]
